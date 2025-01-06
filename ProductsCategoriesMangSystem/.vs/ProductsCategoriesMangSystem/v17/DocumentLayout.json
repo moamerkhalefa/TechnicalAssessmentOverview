@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assessment\\ProductsCategoriesMangSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|d:\\assessment\\productscategoriesmangsystem\\productscategoriesmangsystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|solutionrelative:productscategoriesmangsystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|d:\\assessment\\productscategoriesmangsystem\\productscategoriesmangsystem\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|solutionrelative:productscategoriesmangsystem\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|d:\\assessment\\productscategoriesmangsystem\\productscategoriesmangsystem\\dtos\\dashboard\\lowstockproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|solutionrelative:productscategoriesmangsystem\\dtos\\dashboard\\lowstockproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|d:\\assessment\\productscategoriesmangsystem\\productscategoriesmangsystem\\repositories\\services\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|solutionrelative:productscategoriesmangsystem\\repositories\\services\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|d:\\assessment\\productscategoriesmangsystem\\productscategoriesmangsystem\\dtos\\dashboard\\categoryproductscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|solutionrelative:productscategoriesmangsystem\\dtos\\dashboard\\categoryproductscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|d:\\assessment\\productscategoriesmangsystem\\productscategoriesmangsystem\\repositories\\interface\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|solutionrelative:productscategoriesmangsystem\\repositories\\interface\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|d:\\assessment\\productscategoriesmangsystem\\productscategoriesmangsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903AB6B4-711E-4757-B730-7362CE740760}|ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem.csproj|solutionrelative:productscategoriesmangsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductsCategoriesMangSystem\\Models\\Product.cs",
+              "ToolTip": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Models\\Product.cs",
+              "RelativeToolTip": "ProductsCategoriesMangSystem\\Models\\Product.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:03:34.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LowStockProductsDTO.cs",
+              "DocumentMoniker": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\DTOs\\Dashboard\\LowStockProductsDTO.cs",
+              "RelativeDocumentMoniker": "ProductsCategoriesMangSystem\\DTOs\\Dashboard\\LowStockProductsDTO.cs",
+              "ToolTip": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\DTOs\\Dashboard\\LowStockProductsDTO.cs",
+              "RelativeToolTip": "ProductsCategoriesMangSystem\\DTOs\\Dashboard\\LowStockProductsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:06:19.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryProductsCountDTO.cs",
+              "DocumentMoniker": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\DTOs\\Dashboard\\CategoryProductsCountDTO.cs",
+              "RelativeDocumentMoniker": "ProductsCategoriesMangSystem\\DTOs\\Dashboard\\CategoryProductsCountDTO.cs",
+              "ToolTip": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\DTOs\\Dashboard\\CategoryProductsCountDTO.cs",
+              "RelativeToolTip": "ProductsCategoriesMangSystem\\DTOs\\Dashboard\\CategoryProductsCountDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:57:11.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "ProductsCategoriesMangSystem\\Models\\AuditLog.cs",
+              "ToolTip": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Models\\AuditLog.cs",
+              "RelativeToolTip": "ProductsCategoriesMangSystem\\Models\\AuditLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:32:23.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "ProductsCategoriesMangSystem\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "ProductsCategoriesMangSystem\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA9wCMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:36:31.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Repositories\\Services\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "ProductsCategoriesMangSystem\\Repositories\\Services\\DashboardRepository.cs",
+              "ToolTip": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Repositories\\Services\\DashboardRepository.cs",
+              "RelativeToolTip": "ProductsCategoriesMangSystem\\Repositories\\Services\\DashboardRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA0wDYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:13:38.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDashboardRepository.cs",
+              "DocumentMoniker": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Repositories\\Interface\\IDashboardRepository.cs",
+              "RelativeDocumentMoniker": "ProductsCategoriesMangSystem\\Repositories\\Interface\\IDashboardRepository.cs",
+              "ToolTip": "D:\\Assessment\\ProductsCategoriesMangSystem\\ProductsCategoriesMangSystem\\Repositories\\Interface\\IDashboardRepository.cs",
+              "RelativeToolTip": "ProductsCategoriesMangSystem\\Repositories\\Interface\\IDashboardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:12:24.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
