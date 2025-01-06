@@ -1,0 +1,59 @@
+@import "primeicons/primeicons.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    background: #f4f7fa;
+}
+
+:root {
+    --p-button-icon-only-width: 2rem !important;
+    --p-confirmpopup-arrow-offset: 0.1rem !important;
+    --p-dialog-title-font-size: 0.9rem !important;
+    --p-icon-size: 0.8rem !important;
+}
+
+.p-confirmpopup:after,
+.p-confirmpopup:before {
+    left: unset !important;
+    right: var(--p-confirmpopup-arrow-offset) !important;
+}
+
+.p-panel-header {
+    border-bottom: 1px solid #e2e8f0 !important;
+}
+
+table th {
+    font-size: 13px !important;
+}
+
+table td {
+    font-size: 14px !important;
+}
+
+.font-semibold {
+    font-size: 13px !important;
+}
+
+.is-invalid {
+    border-color: red !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}

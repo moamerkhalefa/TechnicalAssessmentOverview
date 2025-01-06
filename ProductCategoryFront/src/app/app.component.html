@@ -1,0 +1,13 @@
+<p-toast></p-toast>
+<app-loader></app-loader>
+<p-confirmdialog key="dialog" />
+<p-confirmpopup key="useInLine" />
+<app-left-sidebar
+  [isLeftSidebarCollapsed]="isLeftSidebarCollapsed()"
+  (changeIsLeftSidebarCollapsed)="changeIsLeftSidebarCollapsed($event)"
+/>
+
+<app-main
+  [isLeftSidebarCollapsed]="isLeftSidebarCollapsed()"
+  [screenWidth]="screenWidth()"
+/>

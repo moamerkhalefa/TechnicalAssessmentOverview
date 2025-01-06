@@ -1,0 +1,151 @@
+<div class="min-h-screen">
+    <div class="container mx-auto p-6">
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+                Dashboard
+            </h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="border border-red-400 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-gray-700 font-bold">Total Products</h3>
+                    <i class="pi pi-box w-5 h-5 text-red-400"></i>
+                </div>
+                <p class="text-2xl font-bold mt-2 text-gray-700">{{counts.totalProducts}}</p>
+                <div class="mt-4 bg-gray-700 h-2 rounded-full">
+                    <div class="bg-red-400 h-2 rounded-full" style="width: 85%" id="ignoredProgress"></div>
+                </div>
+            </div>
+            <div class="border border-yellow-400 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-gray-700 font-bold">Total Categories</h3>
+                    <i class="pi pi-tags w-5 h-5 text-yellow-400"></i>
+                </div>
+                <p class="text-3xl font-bold mt-2">{{counts.totalCategories}}</p>
+                <div class="mt-4 bg-gray-700 h-2 rounded-full">
+                    <div class="bg-yellow-400 h-2 rounded-full" style="width: 95%" id="coffeeProgress"></div>
+                </div>
+            </div>
+            <div class="border border-green-400 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-gray-700 font-bold">Active Products</h3>
+                    <i class="pi pi-chart-bar w-5 h-5 text-green-400"></i>
+                </div>
+                <p class="text-3xl font-bold mt-2" id="serverHealth">{{counts.activeProducts}}</p>
+                <div class="mt-4 bg-gray-700 h-2 rounded-full">
+                    <div class="bg-green-400 h-2 rounded-full" style="width: 42%" id="serverProgress"></div>
+                </div>
+            </div>
+            <div class="border border-purple-400 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-gray-700 font-bold">Active Categories</h3>
+                    <i class="pi pi-chart-bar w-5 h-5 text-purple-400"></i>
+                </div>
+                <p class="text-3xl font-bold mt-2" id="meetingsAvoided">{{counts.activeCategories}}</p>
+                <div class="mt-4 bg-gray-700 h-2 rounded-full">
+                    <div class="bg-purple-400 h-2 rounded-full" style="width: 75%" id="meetingsProgress"></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+            <div class="border border-blue-800 rounded-lg p-6">
+                <h3 class="text-gray-700 font-bold" style="margin-bottom: 10px;">Products Per Category</h3>
+                <p-table [value]="categories" [paginator]="true" [rows]="5" [rowsPerPageOptions]="[5, 10, 20]" stripedRows>
+                    <ng-template #header>
+                        <tr>
+                            <th style="width:20%">Category</th>
+                            <th style="width:10%;text-align: center;">Status</th>
+                            <th style="width:10%;text-align: center;">Products</th>
+                        </tr>
+                    </ng-template>
+                    <ng-template #body let-category>
+                        <tr>
+                            <td>
+                                {{category.name}}
+                            </td>
+                            <td style="text-align: center;">
+                                <p-badge [value]="getStatusLabel(category.status)" [severity]="getStatucSeverity(category.status)" />
+                            </td>
+                            <td style="text-align: center;">
+                                {{category.productsCount}}
+                            </td>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="emptymessage">
+                        <tr>
+                            <td colspan="10" style="text-align: center;">No data found</td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+            </div>
+            <div class="border border-blue-800 rounded-lg p-6">
+                <h3 class="text-gray-700 font-bold" style="margin-bottom: 10px;">Lowest 10 stock alerts</h3>
+                <p-table [value]="products" [paginator]="true" [rows]="5" [rowsPerPageOptions]="[5, 10, 20]" stripedRows>
+                    <ng-template #header>
+                        <tr>
+                            <th style="width:20%">Product</th>
+                            <th style="width:10%;text-align: center;">Status</th>
+                            <th style="width:10%;text-align: center;">Quantity</th>
+                        </tr>
+                    </ng-template>
+                    <ng-template #body let-product>
+                        <tr>
+                            <td>
+                                {{product.name}}
+                            </td>
+                            <td style="text-align: center;">
+                                <p-badge [value]="getStatusLabel(product.status)" [severity]="getStatucSeverity(product.status)" />
+                            </td>
+                            <td style="text-align: center;">
+                                {{product.stockQuantity}}
+                            </td>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="emptymessage">
+                        <tr>
+                            <td colspan="10" style="text-align: center;">No data found</td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-6 mb-8">
+            <div class="border border-blue-800 rounded-lg p-6">
+                <h3 class="text-gray-700 font-bold">Number of Products Per Category</h3>
+                <p-chart type="bar" [data]="basicData" [options]="basicOptions" />
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-6 mb-8">
+            <div class="border border-blue-800 rounded-lg p-6">
+                <h3 class="text-gray-700 font-bold" style="margin-bottom: 10px;">Recent activities log</h3>
+                <p-table [value]="activites" [paginator]="true" [rows]="10" [rowsPerPageOptions]="[5, 10, 20]" stripedRows>
+                    <ng-template #header>
+                        <tr>
+                            <th>Date</th>
+                            <th>Table</th>
+                            <th>Action</th>
+                            <th>Old Values</th>
+                            <th>New Values</th>
+                        </tr>
+                    </ng-template>
+                    <ng-template #body let-audit>
+                        <tr>
+                            <td>{{formatDate(audit.timestamp)}}</td>
+                            <td>{{audit.entityName}}</td>
+                            <td>
+                                <p-badge [value]="audit.action" [severity]="logActionSeverity(audit.action)" />
+                            </td>
+                            <td>{{audit.oldValues}}</td>
+                            <td>{{audit.newValues}}</td>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="emptymessage">
+                        <tr>
+                            <td colspan="4" style="text-align: center;">No data found</td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+            </div>
+        </div>
+    </div>
+</div>
